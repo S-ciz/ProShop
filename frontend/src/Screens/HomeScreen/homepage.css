@@ -1,0 +1,19 @@
+.page_title {
+  color: #002d62;
+  margin-top: 1rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1250px) {
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

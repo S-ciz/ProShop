@@ -1,0 +1,10 @@
+.fas,
+.far {
+  color: gold;
+}
+.rating {
+  display: flex;
+  column-gap: 0.5rem;
+  margin-top: 0.5rem;
+  color: #333;
+}
